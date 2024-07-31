@@ -80,13 +80,13 @@ curl --location 'http://localhost:8080/api/discount/calculate' \
     - DiscountStrategy.java             -> interface used to decide the strategy 
     - GlobalExceptionHandler.java       -> This class has been used to manage the exception and other related
                                            specific exception class is also added seperately. 
-    - EmployeeDiscount.java             -> This class implement the DiscountStrategy interface to provide discount on employee type 
+    - EmployeeDiscount.java             -> This class implements the DiscountStrategy interface to provide discount on employee type 
                                            i.e. 30% discount
-    - LongTermCustomerDiscount.java     -> This class implement the DiscountStrategy interface to provide discount on customer who
+    - LongTermCustomerDiscount.java     -> This class implements the DiscountStrategy interface to provide discount on customer who
                                            has been related to store for more than 2 year e.g. 5% discount.
-    - AffiliateDiscount.java            -> This class implement the DiscountStrategy interface to provide discount on affiliate type 
+    - AffiliateDiscount.java            -> This class implements the DiscountStrategy interface to provide discount on affiliate type 
                                            i.e. 10% discount 
-    - NoDiscount.java                   -> This class implement the logic if customer not eligible for any discount
+    - NoDiscount.java                   -> This class implements the logic for customer who is not eligible for any discount
     - Constant.java                     -> Handling general message used in application.
                                          
                                             
