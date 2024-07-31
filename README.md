@@ -54,4 +54,4 @@ curl --location 'http://localhost:8080/api/discount/calculate' \
 }'
 
 # UML diagram
-![discount_service_uml](https://github.com/user-attachments/assets/403c8a9c-7712-4f80-8d4b-67ea78a0e215)
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/80bcdad1-3cdd-46ed-830a-3f1c383afb4d">
