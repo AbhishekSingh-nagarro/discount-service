@@ -1,5 +1,6 @@
-package com.demo.discountservice.strategy;
+package com.demo.discountservice.strategyimpl;
 
+import com.demo.discountservice.istrategy.DiscountStrategy;
 import com.demo.discountservice.models.Bill;
 
 public class NoDiscount implements DiscountStrategy {

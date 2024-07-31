@@ -1,4 +1,4 @@
-package com.demo.discountservice.strategy;
+package com.demo.discountservice.istrategy;
 
 import com.demo.discountservice.models.Bill;
 

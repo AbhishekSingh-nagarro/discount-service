@@ -1,7 +1,8 @@
 package com.demo.discountservice.factory;
 
+import com.demo.discountservice.istrategy.DiscountStrategy;
 import com.demo.discountservice.models.User;
-import com.demo.discountservice.strategy.*;
+import com.demo.discountservice.strategyimpl.*;
 
 public class DiscountFactory {
     public static DiscountStrategy getDiscountStrategy(User user) {

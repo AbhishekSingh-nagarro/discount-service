@@ -6,7 +6,7 @@ import com.demo.discountservice.factory.DiscountFactory;
 import com.demo.discountservice.models.Bill;
 import com.demo.discountservice.models.Item;
 import com.demo.discountservice.models.User;
-import com.demo.discountservice.strategy.DiscountStrategy;
+import com.demo.discountservice.istrategy.DiscountStrategy;
 import com.demo.discountservice.utils.Constant;
 import org.springframework.stereotype.Service;
 
